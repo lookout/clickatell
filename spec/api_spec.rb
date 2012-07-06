@@ -1,5 +1,4 @@
-require File.dirname(__FILE__) + '/spec_helper'
-require File.dirname(__FILE__) + '/../lib/clickatell'
+require 'spec_helper'
 
 class FakeHttp
   def start(&block)
