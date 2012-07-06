@@ -2,11 +2,6 @@ require 'spec_helper'
 
 module Clickatell
   describe "API::CommandExecutor" do
-    it "should default to not test mode" do
-      executor = API::CommandExecutor.new({})
-      executor.should_not be_in_test_mode
-    end
-
     it "should have test mode" do
       API.test_mode = true
       executor = API::CommandExecutor.new({})
