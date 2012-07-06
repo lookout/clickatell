@@ -1,9 +1,11 @@
-source "http://rubygems.org"
+source :gemcutter
+
+gem 'rake'
 
 # Specify your gem's dependencies in clickatell.gemspec
 gemspec
 
-group :test do 
+group :test do
   gem "rspec"
   gem "mocha"
 end

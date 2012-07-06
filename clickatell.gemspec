@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "clickatell/version"
 
 Gem::Specification.new do |s|
-  s.name        = "clickatell"
+  s.name        = "lookout-clickatell"
   s.version     = Clickatell::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Luke Redpath"]
